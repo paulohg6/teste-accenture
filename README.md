@@ -1,32 +1,22 @@
-# Cucumber-Java Skeleton
+# Test-accenture
 
-[![Build Status](https://travis-ci.org/cucumber/cucumber-java-skeleton.svg?branch=main)](https://travis-ci.org/cucumber/cucumber-java-skeleton)
 
-This is the simplest possible build script setup for Cucumber using Java.
-There is nothing fancy like a webapp or browser testing. All this does is to show you how
-to install and run Cucumber!
 
-There is a single feature file with one scenario. The scenario has three steps, two of them pending. See if you can make them all pass!
+Para criação e execução do testes, utilizei o projeto ja pronto com as configurações basicas, recomendadas pelo cucumber. obtidas no seguinte repositorio. https://github.com/cucumber/cucumber-java-skeleton.git
 
-## Get the code
+Fiz algumas modificações nas dependencias do projeto, para deixar o mesmo o mais simples possivel, dado os requisitos.
 
-Git:
 
-    git clone https://github.com/cucumber/cucumber-java-skeleton.git
-    cd cucumber-java-skeleton
 
-Subversion:
+## Rodando o Projeto
 
-    svn checkout https://github.com/cucumber/cucumber-java-skeleton/trunk cucumber-java-skeleton
-    cd cucumber-java-skeleton
+
 
 Or simply [download a zip](https://github.com/cucumber/cucumber-java-skeleton/archive/main.zip) file.
 
 ## Use Maven
 
-Open a command window and run:
 
-    ./mvnw test
 
 This runs Cucumber features using Cucumber's JUnit runner. The `@RunWith(Cucumber.class)` annotation on the 
 `RunCucumberTest` class tells JUnit to kick off Cucumber.
