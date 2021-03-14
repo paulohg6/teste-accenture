@@ -12,7 +12,7 @@ Fiz algumas modificações nas dependencias do projeto, para deixar o mesmo o ma
 
 para rodar o projeto no chrome, basta executar o comando
 
-    mvn install
+    mvn clean install
 
 ## Use Maven
 
