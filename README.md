@@ -10,9 +10,9 @@ Fiz algumas modificações nas dependencias do projeto, para deixar o mesmo o ma
 
 ## Rodando o Projeto
 
+para rodar o projeto no chrome, basta executar o comando
 
-
-Or simply [download a zip](https://github.com/cucumber/cucumber-java-skeleton/archive/main.zip) file.
+    mvn install
 
 ## Use Maven
 
